@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signUpContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/signUpDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Text.SubTitle"
+        android:layout_margin="@dimen/default_large"
+        android:text="@string/welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/signUpUserNameLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Text.Title"
+        android:layout_margin="@dimen/default_large"
+        android:text="@string/choose_a_username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpDescription"/>
+
+    <EditText
+        android:id="@+id/signUpUserName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="flagNoExtractUi"
+        app:layout_constraintStart_toStartOf="@+id/signUpUserNameLabel"
+        app:layout_constraintWidth_percent="0.6"
+        app:layout_constraintTop_toBottomOf="@+id/signUpUserNameLabel"/>
+
+    <Button
+        android:id="@+id/signUpGoBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        android:layout_marginTop="@dimen/default_big"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintTop_toBottomOf="@+id/signUpUserName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</android.support.constraint.ConstraintLayout>

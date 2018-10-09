@@ -1,0 +1,18 @@
+<resources>
+
+    <dimen name="default_divider">1px</dimen>
+    <dimen name="default_micro">2dp</dimen>
+    <dimen name="default_small">5dp</dimen>
+    <dimen name="default_normal">10dp</dimen>
+    <dimen name="default_large">20dp</dimen>
+    <dimen name="default_big">30dp</dimen>
+
+    <dimen name="default_text_huge">28sp</dimen>
+    <dimen name="default_text_big">24sp</dimen>
+    <dimen name="default_text_larger">20sp</dimen>
+    <dimen name="default_text_normal">18sp</dimen>
+    <dimen name="default_text_small">14sp</dimen>
+    <dimen name="default_text_smaller">12sp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

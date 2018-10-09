@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Widget.Text.Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/default_text_larger</item>
+    </style>
+
+    <style name="Widget.Text.SubTitle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorPrimaryTextSecondary</item>
+        <item name="android:textSize">@dimen/default_text_normal</item>
+    </style>
+
+</resources>
